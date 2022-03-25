@@ -1,0 +1,13 @@
+<%- include('../partials/header'); %>
+   
+<main class="main main-home container">
+    <div class="row justify-content-around">
+        
+        
+        <h2 class="home-header text-center home-header">red wines</h2>
+        <!-- change image source to match current api -->
+        <img src="<%= data[Math.floor(Math.random() * data.length)].image %>"  alt="home image" class="img-fluid home-image">
+    </div>
+</main>
+
+<%- include('../partials/footer'); %>
