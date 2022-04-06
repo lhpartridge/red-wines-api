@@ -4,7 +4,7 @@
     <h2 class="main-h2"><%= name %></h2>
     <section class="section section-wine">
         <div class="row">
-                    <!-- name, winery, location, reviews, rating, image -->
+        <!-- name, winery, location, reviews, rating, image -->
         <% data.forEach(item => { %>
             <div class="col-md-4">
                 <figure class="figure wine-figure text-center d-block">
@@ -13,11 +13,9 @@
                         <figcaption class="figcaption figcap-cartoon"><%= item.wine %></figcaption>
                     </a>
                     <figcaption class="figcaption figcap-winery">
-                        <!-- add link to wines by winery -->
                         <a href="#"><%= item.winery %></a>
                     </figcaption>
                     <figcaption class="figcaption figcap-location">
-                        <!-- add link to wines by location -->
                         <a href="#"><%= item.location %></a>
                     </figcaption>
                 </figure>                  

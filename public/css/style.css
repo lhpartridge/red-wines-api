@@ -60,7 +60,7 @@ a:hover {
     color: var(--textColor);
 }
 
-/*recipes page*/
+/*wines page*/
 
 .h1 {
     font-size: 84px;
@@ -72,11 +72,6 @@ a:hover {
 
 .h3 {
     font-size: 56px;
-}
-
-.recipeDiv {
-    /* width: 90%; */
-    border-bottom: 2px solid darkgoldenrod;
 }
 
 .home-image {
@@ -96,7 +91,6 @@ max-width: 8%;
 }
 
 .figcaption {
-    /* padding: 8px; */
     color: var(--textColor);
     background-color: var(--bgColor);
 }
@@ -113,7 +107,6 @@ margin-bottom: 20px;
 .not-found-image {
     margin: 0 auto;
 }
-
 
 .footer {
     color: var(--textColor);
